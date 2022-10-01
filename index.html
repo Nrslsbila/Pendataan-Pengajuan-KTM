@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pendataan Pengajuan KTM</title>
+</head>
+<middle-align><body>
+  <body style="background-color: lightcyan;"></body>
+  <h1><center><font color="midnightblue">FORM PENGAJUAN PEMBUATAN KTM</font></h1><br></center>
+
+  <center><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/LOGO_IT_PLN.png"alt="ITPLN" width="450" height="200"></center><br>
+
+<hr width="55%" size="5" color="black">
+
+  <center><font size="4">Isilah Data Berikut dengan Benar dan Tepat!</font></center>
+
+<center><div style="background-color: ; border: 3px solid #17202A; height: 250px; margin: 10px 0px; padding: 2px; text-align: middle ; width: 550px;">
+<table>
+  <form action="login.php" method="POST">
+      <tr>
+        <td><label for="nim">NIM<td>:</td></label></td>
+        <td><input type="number" name ="NIM" placeholder="write your NIM here..." required><br></td>
+      </tr>
+
+      <tr>
+        <td><label for="nama">Nama <td>:</td></label></td>
+        <td><input type="text" name="NAMA" placeholder="write your name here..."required><br></td>
+      </tr>
+
+      <tr>
+        <td><label>Gender </td><td>:</td></label>
+        <td><input type="radio" name="Gender" value="Laki-Laki">Laki-Laki<input type="radio" name="Gender" value="Perempuan">Perempuan</td>
+      </tr>
+   <tr>
+        <td><label for="email">E-mail <td>:</td></label></td>
+        <td><input type="email" name="EMAIL" placeholder="write your email here..." required><br></td>
+      </tr>
+
+       <tr>
+           <td>Jurusan</td> 
+           <td>:</td>
+           <td><select name ="JURUSAN">
+          <option value=" "> </option>  
+          <option value="D3 TEKNIK MESIN">D3 TEKNIK MESIN</option>
+          <option value="D3 TEKNOLOGI LISTRIK ">D3 TEKNOLOGI LISTRIK </option>
+          <option value="S1 TEKNIK ELEKTRO">S1 TEKNIK ELEKTRO</option>
+          <option value="S1 TEKNIK MESIN">S1 TEKNIK MESIN</option>
+          <option value="S1 TEKNIK SIPIL">S1 TEKNIK SIPIL</option>
+          <option value="S1 TEKNIK INFORMATIKA">S1 TEKNIK INFORMATIKA</option>
+          <option value="S1 SISTEM INFORMASI">S1 SISTEM INFORMASI</option>
+        </select></td>
+      </tr>
+
+  <tr>
+    <td>Foto</td>
+    <td>:</td>
+    <td><input type="text" name="username" /></td>
+    <td><input type='file' name='foto' /></td></td><br>
+  </tr>
+
+  <tr>
+      <td><label>Status </td><td>:</td></label>
+      <td><input type="radio" name="Status" value="Buat Baru">Buat Baru
+      <input type="radio" name="Status" value="Buat Ulang">Buat Ulang</td>
+    </tr>    
+</table>
+    <p>
+    <input type="submit" name="tombol" value="kirim"/></p>
+    </p>
+  </form>
+</div></center>
+</body>
+</html>
